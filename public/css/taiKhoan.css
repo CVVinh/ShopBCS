@@ -1,0 +1,42 @@
+.card-login {
+    margin-top: 110px;
+}
+.form-center {
+    margin: 0 auto;
+}
+.anThe {
+    display: none;
+}
+.btn-info {
+    background-color: rgb(0, 132, 255);
+    color: var(--white-color);
+}
+.btn-success:hover {
+    transition: all 0.3s linear;
+}
+.text-blue {
+    color: #0077b7;
+}
+.btn-login {
+    background-color: var(--primary-color);
+    width: 100%;
+    color: var(--white-color);
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: all 0.2s linear;
+}
+@media screen and (max-width: 740px) {
+    .card-title p {
+        text-align: center;
+    }
+    .card-login {
+        margin-top: 70px;
+    }
+}
